@@ -1,0 +1,312 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+html{
+    /* font-family: 'Roboto', sans-serif; */
+
+    /* font-family: 'Questrial', sans-serif; */
+
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Inter var', sans-serif;
+
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+
+html, body, .nav{
+	margin: 0;
+}
+
+h1, h2, h3, h4{
+  font-weight: 420;
+  font-family: 'Questrial', sans-serif;
+}
+
+main{
+  padding: 3.5em 5em 0;
+}
+
+h2{
+  margin:-.3em 0;
+}
+#title{
+	font-size:3em;
+	margin-bottom:20px;
+
+}
+div:not(.items):not(.container):not(.high-fidelity):not(.events):not(.about):not(.summary):not(.persona){
+/*   border-bottom: 1px solid silver; */
+margin: 3em 0;
+}
+
+div p:not(){
+/*   border-bottom: 1px solid silver; */
+line-height:1.3em;
+}
+
+a:visited{
+	color:black;
+}
+.nav a:hover{
+	color:white;
+	background-color:black;
+}
+#logo a:hover{
+	color: white;
+}
+
+.nav{
+	z-index:1;
+	display: flex;
+	padding:.6em;
+	box-shadow: 0 2px 20px rgba(0,0,0,.3);
+	position:fixed;
+	width:100%;
+	background-color:white;
+}
+
+#logo a{
+	padding:.38em;
+	margin-left: 1.5em;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+}
+
+#logo{
+	flex:0 0 75%;
+}
+
+.items a{
+	padding:1.1em;
+	color: black;
+
+}
+
+.items{
+	display:flex;
+	width:100%;
+	line-height: 30px;
+	top:45em;
+
+}
+
+.items li{
+	flex: 1 1 70%;
+	text-align: left;
+}
+
+.nav li{
+	list-style-type:none;
+}
+.nav a{
+	text-decoration: none;
+}
+#block{
+	Width:100%;
+	height:510px;
+	background-color:	#00CCA0;
+}
+
+.container figure{
+	width: 100%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+
+.container img{
+  margin-top:7.0em;
+  object-fit: contain;
+  width: 100%;
+  height: 920px;
+  object-position: 1;
+/*   filter:drop-shadow(20px 5px 35px rgba(0,0,0,.3)); */
+}
+.about{
+	display: flex;
+	margin-top: 0em;
+}
+.container{
+	margin-top: 1.5em;
+	flex: 0 0 60%;
+}
+.summary{
+	margin-top: 6.5em;
+	margin-left:4em;
+	line-height:1.8em;
+}
+.persona{
+margin-top: -1em;
+margin-bottom: 3em;
+
+}
+.persona p{
+	line-height:1.8em;
+}
+
+
+
+/* .persona p, .persona li{
+	line-height: 1.3em;
+} */
+
+.high-fidelity li{
+	line-height:1.3em
+}
+.high-fidelity > div:not(.gift-shop){
+	padding-top:.5em;
+}
+article {
+	line-height:1.3em;
+}
+h1:not(#title):not(#methods){
+	font-size:2.6em;
+}
+figure{
+	width:55%;
+	margin-left:0em
+}
+figure img{
+	width:100%;
+}
+.nav-map{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+}
+.nav-map p{
+	flex: 0 0 30%;
+	padding-top:2em;
+	line-height:1.8em;
+}
+.nav-map figure{
+	margin-top:0em;
+}
+#nav-title{
+	flex-basis:100%;
+}
+.persona-macro{
+	display: flex;
+
+}
+p{
+
+}
+.persona-macro section{
+	margin-top:4em;
+	margin-right: auto;
+
+}
+
+#head-container{
+	width:10%;
+	flex: 0 0 28%;
+	margin-left:auto
+}
+
+#head-container img{
+	width:100%;
+	height: 330px;
+	object-fit:cover;
+	object-position: 0 -4.5em;
+	border-radius: 100%;
+
+}
+.gift-shop{
+	display:flex;
+}
+
+.discussion-threads{
+	display:flex;
+}
+.discussions{
+	display:flex;
+}
+.artists{
+	display:flex;
+}
+.events{
+	display:flex;
+}
+
+.high-fidelity figure{
+	flex: 0 0 45%;
+/* 	width:80%; */
+}
+
+.inner{
+	width:85%;
+	line-height:1.5;
+
+}
+.page-title{
+	font-size:1.7em;
+	margin-bottom:.9em;
+}
+
+.high-fidelity > div{
+	padding-left:4em;
+}
+
+p:not(#summary) {line-height:1.5em;
+}
+@media only screen and (max-width: 1200px) {
+
+  .gift-shop{
+	display:flex;
+	flex-direction:column;
+	padding-top:5em;
+}
+
+.discussion-threads{
+	display:flex;
+	flex-direction:column;
+
+}
+.discussions{
+	display:flex;
+	flex-direction:column;
+}
+.artists{
+	display:flex;
+	flex-direction:column;
+}
+.events{
+	display:flex;
+	flex-direction:column;
+}
+
+.high-fidelity figure{
+	flex: 0 0 15%;
+    width:80%;
+    margin-top:-4em;
+    margin-bottom:-2em
+}
+.nav-map{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+
+}
+.nav-map figure{
+	margin:0  auto -5em;
+	width:80%
+}
+.about{
+	flex-direction:column
+}
+
+#block{
+	margin-bottom:-5em
+}
+.summary{
+	margin-left:0em;
+	width:100%;
+}
+}

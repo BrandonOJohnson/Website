@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/real_style.css">
+  <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">
+  <title>Brandon</title>
+  <link href="fav.png" rel="icon">
+</head>
+
+<body>
+
+  <div class="new_nav">
+
+      <a href="index.html">Brandon J.</a>
+      <a href="index.html">Works</a>
+      <a href="about.html">About</a>
+      <a href="Resume.pdf">Resume</a>
+
+  </div>
+
+  <figure class="block" id="beige">
+    <img src="mockup_museum.jpg" alt="iPhone6">
+  </figure>
+
+  <!-- <div class="headline">
+
+  </div> -->
+
+  <main>
+    <h1 id="title">Smart Application</h1>
+
+    <div class="summary">
+      <div>
+        <h2 id = "about" >About Project</h2>
+        <p id="summary">smArt aims to solve the lack of community engagement within the confines of art museums by providing information through the inclusion of diverse voices. The permeation of ideas is executed through the facilitation of
+          discussion boards as well as the provision of supplementery content pertaining to exhibitions and it's respective artists. Users should be able to discover new art pieces, find more information about events, and engage with eachother in an
+          intuitive
+          and efficient manner.</p>
+      </div>
+
+      <!--==================================================================================================================-->
+
+      <div>
+        <h2 id="methods">Methods</h2>
+        <ul>
+          <li>Persona</li>
+          <li>Ideation</li>
+          <li>Navigation Map</li>
+          <li>Usability Testing</li>
+          <li>High-fidelity Wire Frames</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--==================================================================================================================-->
+
+    <div class="persona" style: "display: flex">
+
+      <figure>
+        <img src="carla.jpg" alt="carla">
+      </figure>
+
+      <div class="persona-about">
+        <h2>Persona</h2>
+        <!-- <h3>Targeted Users</h3> -->
+        <p>The primary audience for this application are people who have an intrinsic interest within the arts, but do not belong to communities that encourages the exploration of these ideas. smArt allows these users to garner a sense of belonging
+          through exposing them to others who share interest as well as offer a platform for these ideas to be communicated.</p>
+      </div>
+    </div>
+
+    <!--==================================================================================================================-->
+
+    <div class="ideation">
+      <h2>Ideation</h2>
+      <p>As a means to explore potential design solutions for creating a communal experience, I facilitated a brainstorming session where team members and potential users shared their perspective regarding the features
+        to include and the internal placement of functions considering the context of the application goals.</p>
+      <h2>Insights from Ideation</h2>
+      <ul>
+        <li>Implementing a card system for expandability</li>
+        <li>Implement an Artist Profile page where patrons can explore other works by an artist and contact them directly</li>
+        <li>Integrate a favorite Artist Page that allows users to subscribe to updates pertaining to a specific artist</li>
+      </ul>
+    </div>
+
+    <!--==================================================================================================================-->
+
+      <div class="style-guide">
+        <figure>
+          <img src="Style.jpg" alt="style-guide">
+        </figure>
+
+        <div class="description">
+
+          <h2>Style Guide</h2>
+          <p>The primary audience for this application are people who have an intrinsic interest within the arts, but do not belong to communities that encourages the exploration of these ideas. smArt allows these users to garner a sense of belonging
+            through exposing them to others who share interest as well as offer a platform for these ideas to be communicated.</p>
+
+        </div>
+      </div>
+
+    <!--==================================================================================================================-->
+    <div class="nav-map">
+      <h2 id="nav-title">Navigation Map</h2> <br>
+      <div class="nav-content">
+        <figure>
+          <img src="map.png" alt="map">
+        </figure>
+        <p>The Navigation Map is comprised of four main components: Gift Shop, Artist Page, Calendar, and Discussions. The aforementioned pages grant users direct access to features that renders connection to ones environment and connection to
+          patrons more comprehensive. Users are given the option to peruse through museum merchandise, connect directly with their favorite artist, engage in meaningful discussions, and view upcoming events without the barrier of additional menu
+          items.</p>
+      </div>
+    </div>
+    <!--==================================================================================================================-->
+    <div class="high-fidelity">
+      <h2>High Fidelity WireFrame</h2><br>
+
+      <div class="discussions hf">
+        <img id="discussions" src="HiFi/discussion.jpg" onClick="myFunction(this.id)" alt="iphone">
+        <div>
+          <h3 class="page-title">Discussions</h3>
+          <p>The Discussion page shows a comprehensive selection of the posts that are available while providing a brief high-level synopsis. By pressing on the entire card, the user will be led to
+            the discussion thread page where they will be presented with the community engagement (reactions, comments) surrounding that post. From the overview page, Users have the ability to subscribe to alerts when updates are made to a post,
+            and share via social media button. All options are positioned at the bottom of each card and highlighted by application accent color to increase visibility.</p>
+        </div>
+      </div>
+
+      <div class="discussion-threads hf">
+        <img id="discussionthread" src="HiFi/thread.jpg" onClick="myFunction(this.id)" alt="iphone">
+        <div>
+          <h3 class="page-title">Discussion Threads</h3>
+          <p>The Discussion Thread page allows users to view and interact with all of the corresponding comments available in relation to a particular discussion post. The removal of noticeable options allows more cards to fit. Drop shadow implies
+            actionability, therefore when a comment is pressed, additional options, pertaining to the corresponding post, will appear. Users have the ability to React (like, laugh, Endorse, Disagree), Share a comment, and Respond. For readability,
+            indentation shows correspondence.</p>
+        </div>
+      </div>
+
+      <div class="gift-shop hf">
+        <img id="giftshop" src="HiFi/giftshop.jpg" onClick="myFunction(this.id)" alt="iphone">
+        <div>
+          <h3 class="page-title">Gift Shop</h3>
+          <p>The Gift Shop presents the available options as a grid. It initially provides each user with basic information pertaining to the respective merchandise item, such as name, pricing, and owner. Each item is accompanied by a supplementary
+            photo that provides an idea about the condition and nature of the item. Through the implementation of a grid system, Users are able to view 6 items in a given page. This allows for quick comparability.</p>
+        </div>
+      </div>
+
+      <div class="artists hf">
+        <img id="artists" src="HiFi/artists.png" onClick="myFunction(this.id)" alt="iphone">
+        <div>
+          <h3 class="page-title">Artists</h3>
+          <p>The Artist Page highlights the art contributors featured in the user specified museum. Three buttons are place to the right of the profile image and highlighted in an accent color for noticeability. Users will have quick access to
+            subscribe to alerts, jump to giftshop to purchase merchandise from the respective artist, and contact them directly via internal mailing system denoted by an envelope icon. Users are also given the option to view a virtual catalogue of
+            the artist’s work as well as view upcoming calendar events. </p>
+        </div>
+      </div>
+
+      <div class="events hf">
+        <img id="events" src="HiFi/events.jpg" onClick="myFunction(this.id)" alt="iphone">
+        <div>
+          <h3 class="page-title">Events</h3>
+          <p>The Events page allows users to garner a sense of community through providing them with information pertaining to social gatherings sponsored by the user specified museum. Via the utilization of a card system, users have the ability to
+            view brief details regarding the logistics of the event. Once pressed, expanded details about time and location will be presented as well as the additional options to RSVP and block accessed by the ellipses icon.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+  </script>
+    <footer>
+    <div class="social">
+
+      <div class="links">
+
+          <a href="https://www.linkedin.com/in/brandon-johnson/" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/brandonj_iam/" class="fa fa-instagram"></a>
+          <a href="https://github.com/BrandonOJohnson" class="fa fa-github"></a>
+          <a href="mailto:bjohn163@mail.depaul.edu" class="fa fa-envelope"></a>
+      </div>
+        <p id = "tag" style = "color: white"> Designed and Hand-Coded by Brandon Johnson © 2020</p>
+    </div>
+  </footer>
+</body>
+</html>

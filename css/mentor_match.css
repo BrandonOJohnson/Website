@@ -1,0 +1,154 @@
+main div {
+ margin-bottom: 3em
+}
+
+.summary{
+ margin-bottom: -3em;
+}
+
+.Process p{
+
+ margin-left: 2em
+}
+
+.Process h2{
+    font-size: 2em;
+    margin-bottom: .6em;
+}
+
+.descriptions, .Matching ul{
+
+    margin-left: 0em;
+    max-width: 56em;
+    margin-top:3em;
+}
+
+.descriptions h3{
+    font-size: 1.5em;
+}
+
+.info{
+    display:flex;
+    position:relative;
+    align-items: center;
+    margin-bottom: -2em;
+    margin-left: 8em;
+}
+
+.info i{
+    font-size: 5em;
+    padding-right: .5em;
+}
+
+.fa-map-marker-alt, .fa-book{
+    margin-right: 28px;
+
+}
+
+.Matching #title, .match-steps #title{
+    font-size: 2em;
+    margin-bottom: -.5em;
+}
+
+.everything{
+    display:flex;
+    align-items:center;
+    margin-bottom: -5em;
+}
+.everything figure{
+    flex: 1 1 90em;
+    margin-top: -5em;
+}
+
+.Connection h3:first-of-type{
+
+    font-size: 1.6em;
+    font-weight:100 ;
+
+}
+main div {
+ margin-bottom: 3em
+}
+
+.summary{
+ margin-bottom: -3em;
+}
+
+.Process p{
+
+ margin-left: 2em
+}
+
+.Process h2{
+    font-size: 2em;
+    margin-bottom: .6em;
+}
+
+.descriptions, .Matching ul{
+
+    margin-left: 0em;
+    max-width: 56em;
+    margin-top:3em;
+}
+
+.descriptions h3{
+    font-size: 1.5em;
+}
+
+.info{
+    display:flex;
+    position:relative;
+    align-items: center;
+    margin-bottom: -2em;
+    margin-left: 8em;
+}
+
+.info i{
+    font-size: 5em;
+    padding-right: .5em;
+}
+
+.fa-map-marker-alt, .fa-book{
+    margin-right: 28px;
+
+}
+
+.Matching #title, .match-steps #title{
+    font-size: 2em;
+    margin-bottom: -.5em;
+}
+
+.everything{
+    display:flex;
+    align-items:center;
+    margin-bottom: -5em;
+    margin-left: -4em;
+}
+
+.everything img{
+    margin-left: 2em;
+}
+
+.everything figure{
+    flex: 1 1 90em
+}
+
+.Connection h3:first-of-type{
+
+    font-size: 1.6em;
+    font-weight:100 ;
+}
+
+.proto{
+    display:flex;
+}
+
+.proto img{
+    box-shadow: 0 0 2em rgba(0,0,0,.1);
+    border-radius:1em
+}
+
+@media screen and (max-width: 770px) {
+
+  }
+}

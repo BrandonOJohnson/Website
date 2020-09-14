@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction:row;
+
+}
+.nav > li{
+    flex: 0 1 10%;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration:none;
+}
+main{
+  padding: 1em 5em;
+}
